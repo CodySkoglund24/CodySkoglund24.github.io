@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href=/index.html>Home</a></li>
+            <li><a href="/challenge.html">challenge</a></li>
+            <li><a href="#"></a>Recipe</li>
+            <li><a href="/form.html">Reservation Form</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Reserve Your Room!</h1>
+        <h2>Our Policies</h2>
+    </header>
+
+    <section class="policies">
+        <ul>
+            <li>Check-in time after 3:00PM</li>
+            <li>Check-out time by 11:00AM or charges are incurred</li>
+            <li>Breakfast and afternoon tea/snacks included in cost</li>
+            <li>Proof of Covid-19 Vaccination Required. Upload image(s) below</li>
+            <li>50% deposit required by booking</li>
+            <li>Cancellations less than 72 hours ahead of check-in forfeit 50% of deposit </li>
+        </ul>
+    </section>
+
+    <section class="reserve">
+        <form method="post" name="reservation" data-netlify="true">
+
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="First Name"
+                required>
+            </div>
+
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name"
+                required>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="email"
+                required>
+            </div>
+
+            <div>
+                <label for="Phone">Phone:</label>
+                <input type="tel" name="Phone" id="Phone" placeholder="Phone"
+                required>
+            </div>
+
+            <div>
+                <label for="date">Check-in Date:</label>
+                <input type="date" name="date" id="date" placeholder="date"
+                required>
+            </div>
+
+            <div>
+                <label for="date">Check-out Date:</label>
+                <input type="date" name="date" id="date" placeholder="date"
+                required>
+            </div>
+
+            <div>
+                <label for="number">Number of Guests:</label>
+                <input type="number" name="number" id="number" placeholder="Guests" minlength="1" maxlength="4"
+                required>
+            </div>
+
+            <div>
+                <label>Room Type:</label>
+    <select required>
+	    <option disabled hidden selected>Select</option>
+	    <option>Regular</option>
+	    <option>Premium</option>
+    </select> 
+            </div>
+
+            <div>Ocean View (Additional Cost)
+                <div>
+                    <label for="view">Yes:</label>
+                    <input type="radio" name="view" id="yes">
+
+                    <label for="view">No:</label>
+                    <input type="radio" name="view" id="No">
+             </div>
+
+             <div>
+                <label>List Allergies or Other Questions</label>
+                <textarea></textarea>
+            </div>
+
+            <div>
+                <label>Vaccine Proof</label>
+	<input type="file">
+            </div>
+
+            <div>
+                <label>Agree to Terms</label>
+                <input type="checkbox" name="Agree" id="Agree" value="Yes" required>
+            </div>
+
+            <div>
+                <label for="pwd">Create a password to return, Username is your email</label>
+                <input type="password" id="pwd" name="pwd" required> 
+            </div>
+
+            <div>
+                <input type="submit" value="submit">
+            </div>
+
+            <div>
+                <input type="reset">
+            </div>
+
+            </div>
+            
+            <footer>
+                <p>&copy; 2022 The Inn at Skogs Mountain <br>
+                    Ellington CT
+                </p>
+            </footer
+
+      </form>
+ </section>
+
+</body>
+</html>
