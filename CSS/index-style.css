@@ -8,7 +8,7 @@ html{
 h1,
 h2,
 h3{
-    color:rgb(247, 236, 9) ;
+    color:rgb(250, 194, 19) ;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration-style: wavy;
     text-decoration-color: (rgb(161, 73, 250)4px); 
@@ -65,8 +65,7 @@ nav a,
 .assignments a:hover{
     color: #A149FA;
     font-size: 1.3rem;
-    text-decoration:underline rgb(247, 236, 9)2px ;
-    line-height: 1.6;
+    text-decoration:underline rgb(250, 194, 19) ;
 }
 
 
@@ -75,14 +74,13 @@ nav a,
 .contents a:visited{
     color:#A149FA;
     font-size: 1.4rem;
-    line-height: 1.6;
     
 }
 
 .contents a:hover,
 .contents a:active
 {
-    text-decoration: underline rgb(247, 236, 9)2px;
+    text-decoration: underline rgb(250, 194, 19);
     text-underline-offset:4px;
 
 }
@@ -93,7 +91,7 @@ footer a:visited,
 footer a:active
 {
     color: #A149FA;
-    text-decoration: underline rgb(247, 236, 9);
+    text-decoration: underline rgb(250, 194, 19);
     text-underline-offset: 4px;
 }
 
@@ -103,7 +101,7 @@ p a:visited
 p a:active
 {
     color: #A149FA;
-    text-decoration: underline rgb(247, 236, 9);
+    text-decoration: underline rgb(250, 194, 19);
     text-underline-offset: 4px;
 }
 
