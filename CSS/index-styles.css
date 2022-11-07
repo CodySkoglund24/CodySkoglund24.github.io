@@ -108,3 +108,108 @@ p a:active
 body{
     background-image: none;
 }
+
+.contents{
+    background-color: rgb(250, 194, 19);
+    margin: 2rem auto;
+    max-width: 33rem;
+    padding: 1rem;
+}
+
+.contents a:hover{
+    animation-duration: 3s;
+    animation-name: color-fade;
+    background-color: purple;
+    color: white;
+}
+
+@keyframes color-fade {
+    
+    0% {
+        background-color: transparent;
+        color: purple;
+    }
+    
+    25% {
+        background-color: rgb(250, 194, 19);
+    }
+    
+    50% {
+        background-color: black;
+    }
+    
+    75% {
+        background-color: blue;
+    }
+    
+    100% {
+        background-color: purple;
+        color: white;
+    }
+    
+}
+
+footer{
+padding: 2rem;
+max-width: 33rem;
+max-height: 80%;
+position: relative;
+}
+
+
+
+
+
+footer a:hover {
+    animation-duration: 1s;
+    animation-name: color-change;
+    background-color: rgb(250, 194, 19); 
+    color: #A149FA;
+    animation-timing-function: ease-out;
+    
+
+    
+}
+
+@keyframes color-change {
+    
+    0% {
+        background-color: transparent;
+        color: purple;
+    }
+    
+    25% {
+        background-color: rgb(250, 194, 19);
+    }
+    
+    50% {
+        background-color: black;
+    }
+    
+    75% {
+        background-color: blue;
+    }
+    
+    100% {
+        background-color: purple;
+        color: white;
+    }
+
+}
+
+.body{
+    border: rgb(250, 194, 19);
+    min-width: 80%;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+img{
+    margin-left: 30%;
+}
+
+html{
+    background-color: bisque;
+}
+
+
